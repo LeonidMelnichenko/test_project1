@@ -51,7 +51,7 @@ public class DayCounter {
                 newYear = year;
             }
         } else {
-            newDay = day + 2;
+            newDay = day + 1;
             newMonth = month;
             newYear = year;
         }
