@@ -9,7 +9,7 @@ public class DayCounter {
 
         int day = 28;
         int month = 2;
-        int year = 401;
+        int year = 2023;
         String tomorrowDate = ""; // <-- както узнать
         int daysCountInCurrentMonth = 0;
         switch (month) {
