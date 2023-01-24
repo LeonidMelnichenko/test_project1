@@ -1,3 +1,5 @@
+package general_tasks;
+
 public class AutoInc {
     public static void main(String[] args) {
         int i = 47;

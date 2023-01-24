@@ -1,3 +1,5 @@
+package general_tasks;
+
 import java.time.LocalDate;
 
 public class DaysCounter {

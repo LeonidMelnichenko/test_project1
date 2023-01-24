@@ -4,22 +4,20 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600e05fc-291c-4d70-9820-8c7f51b02bd8" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/AutoInc.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/DaysCounter.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise11.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exercise7.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Exsercise9.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/HelloWord.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/MathOps.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/ShortCircuit.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/test_project1.iml" afterDir="false" />
+    <list default="true" id="600e05fc-291c-4d70-9820-8c7f51b02bd8" name="Changes" comment="Exercise11">
+      <change afterPath="$PROJECT_DIR$/src/general_tasks/ListCharacters.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/Task1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/Task2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/homework1/Task3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/AutoInc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general_tasks/AutoInc.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/DaysCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general_tasks/DaysCounter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/Exercise11.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exercise7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/Exercise7.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Exsercise9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/Exsercise9.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general_tasks/HelloWord.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/MathOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general_tasks/MathOps.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/ShortCircuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general_tasks/ShortCircuit.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -45,63 +43,81 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="Application.Exercise11">
-    <configuration name="AutoInc" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="AutoInc" />
-      <module name="test_project1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+}</component>
+  <component name="RunManager" selected="Application.Task3">
     <configuration name="Exercise11" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise11" />
-      <module name="test_project1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exercise7" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exercise7" />
-      <module name="test_project1" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Exsercise9" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Exsercise9" />
+      <option name="MAIN_CLASS_NAME" value="exercises.Exercise11" />
       <module name="test_project1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <configuration name="HelloWord" type="Application" factoryName="Application" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="HelloWord" />
+      <option name="MAIN_CLASS_NAME" value="general_tasks.HelloWord" />
       <module name="test_project1" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="ShortCircuit" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ShortCircuit" />
+    <configuration name="ListCharacters" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="general_tasks.ListCharacters" />
       <module name="test_project1" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task1" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.Task1" />
+      <module name="test_project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task2" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.Task2" />
+      <module name="test_project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Task3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="homework1.Task3" />
+      <module name="test_project1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="homework1.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Task3" />
+        <item itemvalue="Application.Task2" />
+        <item itemvalue="Application.Task1" />
+        <item itemvalue="Application.ListCharacters" />
         <item itemvalue="Application.Exercise11" />
-        <item itemvalue="Application.Exsercise9" />
-        <item itemvalue="Application.Exercise7" />
-        <item itemvalue="Application.ShortCircuit" />
-        <item itemvalue="Application.AutoInc" />
       </list>
     </recent_temporary>
   </component>
@@ -114,6 +130,14 @@
       <option name="presentableId" value="Default" />
       <updated>1674033687006</updated>
     </task>
+    <task id="LOCAL-00001" summary="Exercise11">
+      <created>1674472348213</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1674472348213</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,10 +145,26 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Exercise11" />
+    <option name="LAST_COMMIT_MESSAGE" value="Exercise11" />
   </component>
 </project>

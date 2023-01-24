@@ -1,3 +1,5 @@
+package exercises;
+
 public class Exercise7 {
     public static void main(String[] args) {
         int dataSeven = 4537;
