@@ -4,21 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="600e05fc-291c-4d70-9820-8c7f51b02bd8" name="Changes" comment="Exercise11">
-      <change afterPath="$PROJECT_DIR$/src/general_tasks/ListCharacters.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/Task1.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/Task2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/homework1/Task3.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/AutoInc.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general_tasks/AutoInc.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/DaysCounter.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general_tasks/DaysCounter.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise11.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/Exercise11.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exercise7.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/Exercise7.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/Exsercise9.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/exercises/Exsercise9.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/HelloWord.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general_tasks/HelloWord.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/MathOps.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general_tasks/MathOps.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/ShortCircuit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/general_tasks/ShortCircuit.java" afterDir="false" />
-    </list>
+    <list default="true" id="600e05fc-291c-4d70-9820-8c7f51b02bd8" name="Changes" comment="completed task 1" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -137,7 +123,21 @@
       <option name="project" value="LOCAL" />
       <updated>1674472348213</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="completed task 1">
+      <created>1674562655794</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1674562655794</updated>
+    </task>
+    <task id="LOCAL-00003" summary="completed task 1">
+      <created>1674562822658</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1674562822658</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +165,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Exercise11" />
-    <option name="LAST_COMMIT_MESSAGE" value="Exercise11" />
+    <MESSAGE value="completed task 1" />
+    <option name="LAST_COMMIT_MESSAGE" value="completed task 1" />
   </component>
 </project>
