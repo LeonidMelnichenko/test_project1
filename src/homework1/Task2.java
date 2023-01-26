@@ -1,15 +1,22 @@
 package homework1;
-
 public class Task2 {
     public static void main(String[] args) {
-        int[] array = new int[]{0, 1, 1, 2, 3, 5, 8, 13, 21};
-        int sumChet = 0;
-
-        for(int i = 0; i < array[6]; ++i) {
-            if (array[i] % 2 == 0) {
-                sumChet += array[i];
+        int sum = 0;
+        int[] array = new int[20];
+        array[0] = 0;
+        array[1] = 1;
+        for (int i = 2; i < array.length; i++) {
+            array[i] = array[i - 1] + array[i - 2];
+        }
+        for (int i = 0; i < array.length; i++) {
+            System.out.print(array[i] + " ");
+        }
+        System.out.println();
+        for (int i = 0; i < 7; i++){
+            if(array[i] % 2 == 0){
+                sum += array[i];
             }
         }
-        System.out.println("Сумма всех четных чисел до 7 индекса равна: " + sumChet);
+        System.out.println("сумма " + sum);
     }
 }
