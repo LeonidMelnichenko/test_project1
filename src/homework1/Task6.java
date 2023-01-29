@@ -25,16 +25,15 @@ public class Task6 {
         for (int i = 0; i < matrixPlus.length; i++) {
             for (int j = 0; j < matrixPlus[i].length; j++) {
             matrixPlus[i][j] = matrix1[i][j] + matrix2[i][j];
+            System.out.print(" | " + matrixPlus[i][j]);
             }
         }
-        System.out.println(" | " + matrixPlus);
-
+        System.out.println();
         for (int i = 0; i < matrixMinus.length; i++) {
             for (int j = 0; j < matrixMinus[i].length; j++) {
-                matrixMinus[i][j] = matrix1[i][j] + (- 1) * matrix2[i][j];
+            matrixMinus[i][j] = matrix1[i][j] + (- 1) * matrix2[i][j];
+            System.out.print(" | " + matrixMinus[i][j]);
             }
         }
-        System.out.println(" | " + matrixMinus);
-
-            }
-        }
+    }
+}
