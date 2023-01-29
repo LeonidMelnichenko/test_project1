@@ -13,7 +13,7 @@ public class Task5 {
         for (int i = 0; i < matrix.length; i++) {
             for (int j = i + 1; j < matrix[i].length; j++) {
                 if (i == j) {           //проверяем является ли вообще матрица квадратной
-                    if (matrix[i][j] == 0) {
+                    if (matrix[i][j] != 0) {
                         b1 = true;
                     }
                 }
