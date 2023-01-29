@@ -16,19 +16,20 @@ public class Task5 {
                     if (matrix[i][j] != 0) {
                         b1 = true;
                     }
-                }
-                     else    {
-                         break;
+                } else {
+                    b1 = false;
+                    break;
                 }
             }
         }
         if (b1 = true) {
             System.out.println("матрица является нижней треугольной");
                 } else {
-                        System.out.println("матрица не является нижней треугольной");
-        }
-    }
-}
+                    b1 = false;
+                    System.out.println("матрица не является нижней треугольной");
+                    }
+                }
+            }
 
 
 
