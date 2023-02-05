@@ -5,24 +5,26 @@ public class Box {
     private int higth;
 
     public Box (int cube){
-        wigth = length = higth = 0;
+        this.wigth = cube;
+        this.length = cube;
+        this.higth = cube;
     }
     public Box(int length, int wigth, int higth){
-        this.length = 0;
-        this.wigth = 0;
+        this.length = length;
+        this.wigth = wigth;
+        this.higth = higth;
+    }
+    public Box(int length, int wigth){
+        this.length = length;
+        this.wigth = wigth;
         this.higth = 0;
     }
-
-    public Box(int length, int wigth){
-        this.length = 0;
-        this.wigth = 0;
-    }
-    public void getTipeBox(int length, int wigth, int higth){
-        if(length == wigth && length==higth && wigth==higth){
+    public void getBoxType(){
+        if(length == wigth && length == higth && wigth == higth){
             System.out.println("Куб");
         } else if (length > higth && higth != 0) {
             System.out.println("Обычная коробка");
         } else if (higth == 0)
             System.out.println("Конверт");
-            }
-        }
+    }
+}
