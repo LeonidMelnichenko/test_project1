@@ -14,25 +14,26 @@ public enum Month {
     NOVEMBER(11),
     DECEMBER(12),
     ;
-    private static int number;
+    private int number;
+
     Month(int number) {
-        number = number;
+        this.number = number;
     }
     public static int getNumberByName(String name) {
         for (Month month : Month.values()) {
             if (month.name() == name) {
-                return number;
+                return month.number;
             }
         }
         return 0;
     }
-     static String getNameByNumber(int number) {
+    public static String getNameByNumber(int number) {
         for (Month month : Month.values()) {
             if (month.number == number) {
-                return name;
+                return month.name();
             }
         }
-        return null;
+        return "illegal month number";
     }
 }
 
