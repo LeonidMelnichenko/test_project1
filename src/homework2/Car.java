@@ -15,28 +15,12 @@ public class Car {
 
     public Car(CarsColors carcolor) {
         this.brand = carcolor.name();
-
-
     }
-}
-
-        //for(CarsColors c : CarsColors.availiableColors)
-
-        //this.color = null;
-
-    /*public Car2(Brand2 brand, Color2 color){
-        this.brand = brand;
-        for(Color2 c : brand.getColors()){
-            if(c == color){
-                this.color = color;
-                break;
-
-
-        public void setColor (String newColor){
-        for (Color2 col : brand.getColors()) {
-            if(col.name().equals(newColor.toUpperCase())){
-                color = col;
-            }
+    public void getChangeCoolor (String elemColor){
+        String[] brandAveliableColor = new String[0];
+        CarsColors.valueOf(brand);
+        for(String s: brandAveliableColor){
+            this.color = elemColor;
         }
     }
-     */
+}

@@ -24,5 +24,7 @@ public class MainCar {
         System.out.println(car3.getBrand());
         System.out.println(car3.getColor());
 
+        car1.getChangeCoolor("BLACK");
+
         }
     }
