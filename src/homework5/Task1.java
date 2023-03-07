@@ -8,7 +8,7 @@ public class Task1 {
         Scanner in = new Scanner(System.in);
         System.out.println("Enter words:");
         while (true){
-            in.next();
+            System.out.println(in.nextLine());
         }
     }
 }
