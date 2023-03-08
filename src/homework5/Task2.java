@@ -1,44 +1,45 @@
 package src.homework5;
 
-import java.io.File;
-import java.sql.Array;
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
-import java.util.Arrays;
-import java.util.List;
 import java.util.Scanner;
 //        Необходимо реализовать программу, которая будет считывать
 //        числа (целые), введенные пользователем, пока пользователь
 //        не введет "stop" слово. После чего программа выведет среднее
 //        из всех введенных значений.
-
 public class Task2 {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws IOException {
         int count = 0;
         int sum = 0;
-        String s = "stop";
-        ArrayList<Integer> nums = new ArrayList<>();
         Scanner in = new Scanner(System.in);
-
-        System.out.println("Enter number:");
+        BufferedReader reader = new BufferedReader(new InputStreamReader(System.in));
+        ArrayList<Integer> nums = new ArrayList<>();
+        System.out.println("Enter number");
         while (true) {
             if (in.hasNextInt()) {
                 nums.add(in.nextInt());
                 count++;
             }
-            if (in.hasNextLine()) {
-                if (in.equals(s)) {
-                    for (Integer i : nums) {
+            if (!in.hasNextInt()) {
+                if (reader.readLine().equals("stop")) {
+                    for (int i : nums) {
                         sum += i;
-                        System.out.println(sum / count);
-                        break;
-                        }
-                    } else {
-                    in.next();
+                    }
+                    break;
                 }
             }
-            in.close();
         }
+        System.out.println((double) sum / count);
     }
 }
+
+
+
+
+
+
+
 
 
