@@ -17,22 +17,24 @@ public class Task3 {
         while (true) {
             if (in.hasNextInt()) {
                 a = in.nextInt();
-                    nums.add(a);
-                        System.out.println("You entered integer :");
-                }
+                nums.add(a);
+                System.out.println("You entered integer :");
+            }
             if (in.hasNextLine()) {
-                if (in.nextLine().equals("stop")) {
-                    b = in.nextLine();
-                        if (b.equals("status")) {
-                            Collections.sort(nums);
-                                System.out.println("sorted array" + nums);
-                                    break;
-                                }
-                            }
-                        }
-                    }
+                b = in.nextLine();
+            if (b.equals("status")) {
+                Collections.sort(nums);
+                System.out.println("sorted array" + nums);
+                }
+            if (b.equals("stop")) {
+                break;
                 }
             }
+        }
+    }
+}
+
+
 
 
 
