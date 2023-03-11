@@ -9,20 +9,30 @@ public class Task2 {
     public static void main(String[] args) {
         int count = 0;
         int sum = 0;
-        Scanner in = new Scanner(System.in);
-        System.out.println("Enter number");
+        String a;
+            Scanner in = new Scanner(System.in);
+                System.out.println("Enter number");
         while (true) {
             if (in.hasNextInt()) {
                 sum += in.nextInt();
-                count++;
-            } else {
-                in.equals("stop");
-                System.out.println((double) sum / count);
-                break;
+                    count++;
+                }
+            if (in.hasNextLine()){
+                if (in.nextLine().equals("stop") && sum > 0) {
+                    System.out.println((double) sum / count);
+                        break;
+                    }
+                }
             }
         }
     }
-}
+
+
+
+
+
+
+
 
 
 
