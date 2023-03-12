@@ -11,23 +11,19 @@ public class Task3 {
     public static void main(String[] args) {
         ArrayList<Integer> nums = new ArrayList<Integer>();
         Scanner in = new Scanner(System.in);
-        int a;
-        String b;
+        String a;
         System.out.println("You entered integer :");
         while (true) {
             if (in.hasNextInt()) {
-                a = in.nextInt();
-                nums.add(a);
+                nums.add(in.nextInt());
                 System.out.println("You entered integer :");
-            }
-            if (in.hasNextLine()) {
-                b = in.nextLine();
-            if (b.equals("status")) {
-                Collections.sort(nums);
-                System.out.println("sorted array" + nums);
-                }
-            if (b.equals("stop")) {
-                break;
+            } else {
+                a = in.nextLine();
+                if (a.equals("status")) {
+                    Collections.sort(nums);
+                    System.out.println("sorted array" + nums);
+                } else if (a.equals("stop")) {
+                    break;
                 }
             }
         }
