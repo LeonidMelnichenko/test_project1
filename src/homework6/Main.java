@@ -1,7 +1,7 @@
 package src.homework6;
 
 public class Main {
-    public static void main(String[] args) {
+    public static void main(String[] args) throws InterruptedException {
         Stock  stock = new Stock();
         Factory factory = new Factory(stock);
         StateOne stateOne = new StateOne(stock);

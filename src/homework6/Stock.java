@@ -5,7 +5,8 @@ import java.util.List;
 import java.util.Random;
 
 public class Stock {
-    private int parts = 0;
+    private String parts = null;
+    private Integer partsCounter = 0;
 
     public Stock() {
         this.parts = parts;
@@ -17,23 +18,23 @@ public class Stock {
             roboParts.add(val);
         }
         Random random = new Random();
-        while (parts < 1){
-        String parts;
+        while (partsCounter < 1){
             parts = String.valueOf(roboParts.get(random.nextInt(roboParts.size())));
+            partsCounter++;
             try {
             wait();
         } catch (InterruptedException e){}
         }
-        parts--;
+        partsCounter--;
         notify();
     }
     public synchronized void put() throws InterruptedException {
-        while (parts > 1){
+        while (partsCounter > 1){
             try{
                 wait();
             } catch (InterruptedException e){}
         }
-        parts++;
+        partsCounter++;
         notify();
     }
 }
