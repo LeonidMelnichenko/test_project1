@@ -1,18 +1,40 @@
 package src.homework6;
 
-public class Factory implements Runnable {
-    Stock stock;
+import java.util.ArrayList;
+import java.util.List;
+import java.util.Random;
 
-    public Factory(Stock stock) {
-        this.stock = stock;
+public class Factory implements Runnable {
+    public static final Random RANDOM = new Random();
+    public static final List<RoboParts> allParts = new ArrayList<>();
+
+    public static void generateRoboParts() {
+
+        RoboParts[] roboparts = RoboParts.values();
+        while (true) {
+            try {
+                Thread.sleep(5000);
+                allParts.add(roboparts[RANDOM.nextInt(roboparts.length)]);
+                System.out.println(allParts);
+
+            } catch (InterruptedException e) {
+                throw new RuntimeException(e);
+            }
+        }
     }
+
 
     @Override
     public void run() {
-        try {
-            stock.put();
-        } catch (InterruptedException e) {
-            throw new RuntimeException(e);
-        }
+        System.out.println(Thread.currentThread().getName());
+        System.out.println("Factory is produce next parts of robots");
+        Factory.generateRoboParts();
     }
 }
+
+
+
+
+
+
+

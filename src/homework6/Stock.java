@@ -1,40 +1,24 @@
 package src.homework6;
 
-import java.util.ArrayList;
-import java.util.List;
-import java.util.Random;
+import static src.homework6.Factory.allParts;
 
 public class Stock {
-    private String parts = null;
-    private Integer partsCounter = 0;
 
-    public Stock() {
-        this.parts = parts;
-    }
-
-    public synchronized void get() throws InterruptedException {
-        List<Robot> roboParts = new ArrayList<>();
-        for(Robot val : roboParts){
-            roboParts.add(val);
-        }
-        Random random = new Random();
-        while (partsCounter < 1){
-            parts = String.valueOf(roboParts.get(random.nextInt(roboParts.size())));
-            partsCounter++;
-            try {
-            wait();
+    public static synchronized void getParts() throws InterruptedException {
+        int countArrays = 0;
+        try {
+            for (int i = 0; i < allParts.size(); i++){
+                for (RoboParts r : allParts){
+                    if(r.equals(Robot.terminator)){
+                        Robot.terminator[i] = allParts.get(i);
+                        countArrays++;
+                    } else {
+                        wait();
+                    }
+                }
+            }
         } catch (InterruptedException e){}
-        }
-        partsCounter--;
         notify();
     }
-    public synchronized void put() throws InterruptedException {
-        while (partsCounter > 1){
-            try{
-                wait();
-            } catch (InterruptedException e){}
-        }
-        partsCounter++;
-        notify();
-    }
+
 }
