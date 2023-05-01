@@ -1,18 +1,22 @@
 package src.homework6;
 
+import java.util.EnumMap;
+import java.util.Map;
+
 public class Robot {
-    public static RoboParts[] terminator = new RoboParts[]{
-                                            RoboParts.BODY,
-                                            RoboParts.HEAD,
-                                            RoboParts.LEFT_HAND,
-                                            RoboParts.RIGHT_HAND,
-                                            RoboParts.LEFT_LEG,
-                                            RoboParts.RIGHT_LEG};
+    EnumMap<RoboParts, Boolean> terminator = new EnumMap(RoboParts.class);
 
-
-    public RoboParts[] getTerminator() {
-        return terminator;
+    public Robot() {
+        terminator.put(RoboParts.HEAD, false);
+        terminator.put(RoboParts.BODY, false);
+        terminator.put(RoboParts.LEFT_HAND, false);
+        terminator.put(RoboParts.LEFT_LEG, false);
+        terminator.put(RoboParts.RIGHT_HAND, false);
+        terminator.put(RoboParts.RIGHT_LEG, false);
     }
 }
+
+
+
 
 

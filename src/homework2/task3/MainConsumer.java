@@ -5,12 +5,12 @@ public class MainConsumer {
         Consumer consumer = new Consumer(5);
         consumer.consume(1);
         consumer.consume(1);
-        consumer.consume(1);
-        consumer.consume(1);
-        consumer.consume(1);
-        consumer.consume(1);
-        consumer.consume(1);
-        consumer.consume(1);
+//        consumer.consume(1);
+//        consumer.consume(1);
+//        consumer.consume(1);
+//        consumer.consume(1);
+//        consumer.consume(1);
+//        consumer.consume(1);
         consumer.consume(1);
         double avg = consumer.avg();
        }

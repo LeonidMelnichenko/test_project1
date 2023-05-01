@@ -9,15 +9,12 @@ public class Main {
     public static void main(String[] args) throws ExecutionException, InterruptedException {
         Factory factory = new Factory();
         Robot robot = new Robot();
-        Stock stock = new Stock();
         Country country1 = new Country();
         Country country2 = new Country();
 
-
-
-        new Thread(factory).start();
-        new Thread(country1).start();
-        new Thread(country2).start();
+        factory.start();
+        country1.start();
+        country2.start();
 
 
 
